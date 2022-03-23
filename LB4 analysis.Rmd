@@ -1,0 +1,267 @@
+---
+title: "LB4 analysis"
+output: html_document
+---
+
+```{r}
+library("tidyverse")
+library("ggpubr")
+library("lsr")
+library("car")
+library("rstatix")
+library("datarium")
+library("xlsx")
+library("irr")
+library("ez")
+```
+
+```{r}
+# Loads functions
+# See "Function info.txt" for a summary of the functions
+source("LB4 functions.R")
+```
+
+
+```{r}
+# load data
+raw_part1 <- read.csv("SecondYearLab_expt1_February 23, 2022_20.18.csv")
+raw_part2 <- read.csv("SecondYearLab_expt2_March 1, 2022_21.13.csv")
+raw_part3 <- read.csv("SecondYearLab_expt3 - copy_March 4, 2022_13.49.csv")
+raw_part4 <- read.csv("SecondYearLab_expt4_March 6, 2022_14.35.csv")
+raw_part5 <- read.csv("SecondYearLab_expt5_March 6, 2022_14.30.csv")
+raw_part6 <- read.csv("SecondYearLab_expt6_March 7, 2022_22.53.csv")
+raw_part7 <- read.csv("SecondYearLab_expt7_March 8, 2022_14.12.csv")
+```
+
+# Data wrangling
+
+```{r}
+# Clean data
+part1 <- clean_data_p1(raw_part1) %>% mutate(part = 1) %>% final_tidy()
+part2 <- clean_data(raw_part2)%>% mutate(part = 2) %>% final_tidy()
+part3 <- clean_data(raw_part3) %>% mutate(part = 3)%>% final_tidy()
+part4 <- clean_data(raw_part4) %>% mutate(part = 4)%>% final_tidy()
+part5 <- clean_data(raw_part5) %>% mutate(part = 5)%>% final_tidy()
+part6 <- clean_data(raw_part6) %>% mutate(part = 6)%>% final_tidy()
+part7 <- clean_data(raw_part7) %>% mutate(part = 7)%>% final_tidy()
+
+# Remove individual participants- these responses do not need to be included in the write up (I think). 
+
+part1 <- part1 %>% filter(id  != "R_1IKJjGjPB7epA3L") # test response 
+
+part2 <- part2 %>% filter(id != "R_1H2JD9x9fb35Q6A", # test response
+                 id != "R_1K6DVRE2C23Vmtw") # test response
+
+part3 <- part3 %>% filter(id != "R_1hQiedPNJOKjosd", # test response. 
+                          id != "R_xeYrEbEhzyLzbCV")  # extra participant I recruited. 
+
+part5 <- part5 %>% ungroup() %>% tail(-10) # removes the 10 participants from the pilot
+
+
+part7 <- part7 %>% filter(id != "R_2yjsli37jwY0aev", # test response
+                 id != "R_1o1IQbGeJrecCic") # test response
+
+# list of data frames pre_exclusion. These responses should be included in the write up. To return a specific data frame type "pre_exclusion$p" followed by the number of the part you want. E.g. "pre_exclusion$p2"
+pre_exclusion <- list("p1" = part1,"p2" = part2,"p3" = part3,"p4" = part4,"p5" = part5,"p6" = part6, "p7" = part7) 
+```
+
+
+```{r}
+# Returns excluded participants
+
+exclusion_1 <- exclusion(part1) 
+exclusion_2 <- exclusion(part2)
+exclusion_3 <- exclusion(part3)
+exclusion_4 <- exclusion(part4)
+exclusion_5 <- exclusion(part5)
+exclusion_6 <- exclusion(part6)
+exclusion_7 <- exclusion(part7)
+
+
+# list of data frames post-exclusion. To return a specific data frame type "post_exclusion$p" followed by the number of the part you want. E.g. "post_exclusion$p2"
+exclusion<- list("p1" = exclusion_1,"p2" = exclusion_2,"p3" = exclusion_3,"p4" = exclusion_4,"p5" = exclusion_5, "p6" = exclusion_6, "p7" = exclusion_7) 
+```
+
+
+```{r}
+# Apply exclusion criteria
+
+part1 <- apply_exclusion(part1) 
+part2 <- apply_exclusion(part2)
+part3 <- apply_exclusion(part3)
+part4 <- apply_exclusion(part4)
+part5 <- apply_exclusion(part5)
+part6 <- apply_exclusion(part6)
+part7 <- apply_exclusion(part7)
+
+
+# list of data frames post-exclusion. To return a specific data frame type "post_exclusion$p" followed by the number of the part you want. E.g. "post_exclusion$p2"
+post_exclusion <- list("p1" = part1,"p2" = part2,"p3" = part3,"p4" = part4,"p5" = part5, "p6" = part6, "p7" = part7) 
+```
+
+```{r}
+# Places all the post-exclusion data frames into one data frame. 
+post_exclusion_df <- do.call("rbind", post_exclusion)  %>% tidy_combined_df() 
+
+# Places all the pre-exclusion data frames into one data frame
+pre_exclusion_df <- do.call("rbind", pre_exclusion) %>%  tidy_combined_df() 
+
+# Places all the exclusion data frames into one data frame
+
+exclusion_df <- do.call("rbind", exclusion) 
+
+```
+
+```{r}
+exclusion_df
+```
+
+
+# Demographics- post-exclusion
+
+```{r}
+# gender
+gender <- post_exclusion_df %>% group_by(gender) %>% summarise(n = n()) %>% print()
+
+```
+
+
+```{r}
+# age
+post_exclusion_df %>% summarise(mean = mean(age),
+                                sd = sd(age),
+                                min = min(age),
+                                max = max(age)) %>% round(1)
+
+```
+
+# Analysis- odd parts
+
+```{r}
+# Collects all the numeric responses (parts 1,3,5,7)
+analysis_numeric <- post_exclusion_df %>% filter(response_type == "numeric") %>% mutate(response = as.numeric(response)) %>% select(id, time, severity, response)
+```
+
+
+```{r}
+# ANOVA
+
+res <- ezANOVA(data = analysis_numeric,
+        wid = id, 
+        between = c(time, severity),
+        dv = response)
+```
+
+```{r}
+res$ANOVA
+```
+
+```{r}
+res.aov3 <- aov(response ~ time * severity, data = analysis_numeric)
+# Extract the residuals
+aov_residuals <- residuals(object = res.aov3)
+# Run Shapiro-Wilk test
+shapiro.test(x = aov_residuals )
+```
+
+```{r}
+# Tukey post-hoc.  
+
+  model <- aov(response ~ time *severity, data = analysis_numeric) 
+
+post_hoc <- TukeyHSD(model, conf.level=.95)
+post_hoc
+```
+
+```{r}
+graph_numeric(analysis_numeric)
+```
+```{r}
+ analysis_numeric %>% group_by(time, severity) %>% dplyr::summarise(mean = mean(response),
+                                                                  median = median(response),
+                                                                  sd = sd(response),
+                                                                  se = sd(response)/ sqrt(n()),
+                                                                  lowerCI = mean - (se*1.96),
+                                                                  upperCI = mean + (se*1.96),
+                                                                  max = max(response),
+                                                                  min = min(response)) %>% tibble()
+```
+
+
+```{r}
+# Scheirer-Ray-Hare Test #
+
+=
+# Create Ranks #
+
+Rank_response = rank(analysis_numeric$response)
+Rank_time = rank(analysis_numeric$time)
+Rank_severity = rank(analysis_numeric$severity)
+analysis_numeric_rank <- data.frame(Rank_response, Rank_time, Rank_severity)
+
+# Perform Test #
+
+aov.results = aov(lm(Rank_response ~ Rank_time*Rank_severity, data=analysis_numeric_rank))
+summary(aov.results)
+
+# Extract the sum of squares #
+
+df = anova(aov.results)[,"Df"]
+sum_df = sum(df)
+ss = anova(aov.results)[, "Sum Sq"]
+sum_ss = sum(ss)
+
+# Calculate the MS value #
+
+ms = sum_ss/sum_df
+
+# Calculate H value #
+
+H_satisfaction = ss[1]/ms
+H_studytime = ss[2]/ms
+H_interaction = ss[3]/ms
+
+# Convert this into probability #
+
+1-pchisq(H_satisfaction, df[1])
+1-pchisq(H_studytime, df[2])
+1-pchisq(H_interaction, df[1])
+```
+
+
+```{r}
+df
+```
+
+```{r}
+res
+```
+
+
+
+```{r}
+ss
+```
+
+
+
+```{r}
+anova(aov.results)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

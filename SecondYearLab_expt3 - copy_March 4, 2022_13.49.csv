@@ -1,0 +1,98 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q2,Q3,Q4,Q5,Q6,Q7,Q14,Q15,Q15_3_TEXT,Q16,Q17,severe,nonSev,Q18,severity,c,n
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,"I have read the information on the previous page, and have been given the opportunity to email the researchers with any questions","I understand that my personal information will be used for the purposes explained to me. I understand that according to data protection legislation, 'public task' will be the lawful basis for processing:",I understand that all my personal information will remain confidential and that my data gathered in the study will be stored anonymously and securely. It will not be possible to identify me in any publications:,"I understand that my anonymised research data may be shared with, and used by, others for future research. (No-one will be able to identify me when these data are shared).","I understand that I am free to withdraw from the study without penalty if I so wish, simply by closing my browser:",I consent to participate in this research study,Please enter your age,Please indicate your gender - Selected Choice,Please indicate your gender - Prefer to self-describe as - Text,Is English your native language?,Are you fluent in English?,Please provide a number (between 0 – it is impossible – and 100 – it will definitely happen) to communicate the chance of heavy rainfall to the readers of your newspaper: There is a(n) ________% chance that heavy rainfall will occur in Manila,Please provide a number (between 0 – it is impossible – and 100 – it will definitely happen) to communicate the chance of heavy rainfall to the readers of your newspaper: There is a(n) ________% chance that heavy rainfall will occur in Abra Province,Please indicate the year you were born,severity,c,n
+"{""ImportId"":""startDate"",""timeZone"":""Europe/London""}","{""ImportId"":""endDate"",""timeZone"":""Europe/London""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""Europe/London""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID7""}","{""ImportId"":""QID8""}","{""ImportId"":""QID9""}","{""ImportId"":""QID10""}","{""ImportId"":""QID11""}","{""ImportId"":""QID12""}","{""ImportId"":""QID14_TEXT""}","{""ImportId"":""QID15""}","{""ImportId"":""QID15_3_TEXT""}","{""ImportId"":""QID16""}","{""ImportId"":""QID17""}","{""ImportId"":""QID1_TEXT""}","{""ImportId"":""QID4_TEXT""}","{""ImportId"":""QID18_TEXT""}","{""ImportId"":""severity""}","{""ImportId"":""c""}","{""ImportId"":""n""}"
+03/03/2022 21:23,03/03/2022 21:24,Survey Preview,100,62,TRUE,03/03/2022 21:24,R_1hQiedPNJOKjosd,preview,EN,Yes,Yes,Yes,Yes,Yes,Yes,19,Male,,Yes,Yes,,1,2002,1,,low
+04/03/2022 12:49,04/03/2022 12:50,IP Address,100,50,TRUE,04/03/2022 12:50,R_2aRfqacB7eYZLqh,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,24,Male,,No,Yes,,70,1998,1,,low
+04/03/2022 12:49,04/03/2022 12:50,IP Address,100,77,TRUE,04/03/2022 12:50,R_3I3vGkoGJyuzspH,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,25,Female,,Yes,Yes,,20,1997,1,,low
+04/03/2022 12:49,04/03/2022 12:51,IP Address,100,65,TRUE,04/03/2022 12:51,R_1gooKx15pu90DBK,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,38,Male,,Yes,Yes,,15,1983,1,,low
+04/03/2022 12:48,04/03/2022 12:51,IP Address,100,199,TRUE,04/03/2022 12:51,R_6ShiDsBKcrWVBCN,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,57,Female,,Yes,Yes,,80,1964,1,,low
+04/03/2022 12:50,04/03/2022 12:52,IP Address,100,122,TRUE,04/03/2022 12:52,R_2AKyHQYEFH1x5CE,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,21,Female,,Yes,Yes,60,,2000,2,medium,
+04/03/2022 12:52,04/03/2022 12:53,IP Address,100,51,TRUE,04/03/2022 12:53,R_3HhV5t4Hin76oQh,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,20,Male,,Yes,Yes,50,,2001,2,medium,
+04/03/2022 12:51,04/03/2022 12:53,IP Address,100,122,TRUE,04/03/2022 12:53,R_WBtoYW5v0to22xr,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,29,Female,,Yes,Yes,,20,1992,1,,low
+04/03/2022 12:51,04/03/2022 12:54,IP Address,100,155,TRUE,04/03/2022 12:54,R_4SgCl9iiiezBSs9,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,56,Female,,Yes,Yes,60,,1965,2,medium,
+04/03/2022 12:52,04/03/2022 12:54,IP Address,100,122,TRUE,04/03/2022 12:54,R_1OBTMZivS3XUQcg,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,60,Female,,Yes,Yes,,37,1962,1,,low
+04/03/2022 12:53,04/03/2022 12:55,IP Address,100,156,TRUE,04/03/2022 12:55,R_3FPxWlO3gZ6BRRH,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,27,Female,,Yes,Yes,,25,1994,1,,low
+04/03/2022 13:08,04/03/2022 13:09,IP Address,100,73,TRUE,04/03/2022 13:09,R_1OJhQTuqWMFcy9I,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,24,Female,,Yes,Yes,65,,1997,2,medium,
+04/03/2022 13:08,04/03/2022 13:10,IP Address,100,95,TRUE,04/03/2022 13:10,R_QcwY6ZR5WRx6NuF,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,,25,1987,1,,low
+04/03/2022 13:09,04/03/2022 13:10,IP Address,100,87,TRUE,04/03/2022 13:10,R_9MOA35pJiLkJvwZ,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,38,Female,,Yes,Yes,,10,1983,1,,low
+04/03/2022 13:09,04/03/2022 13:10,IP Address,100,97,TRUE,04/03/2022 13:10,R_1Lh65YEVbVX8cQ0,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,39,Female,,Yes,Yes,60,,1982,2,medium,
+04/03/2022 13:10,04/03/2022 13:11,IP Address,100,67,TRUE,04/03/2022 13:11,R_1Lp2F2FLiM0KSog,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,23,Female,,No,Yes,70,,1998,2,medium,
+04/03/2022 13:08,04/03/2022 13:11,IP Address,100,183,TRUE,04/03/2022 13:11,R_1NmJo4o5mlIRbXf,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,50,Male,,Yes,Yes,75,,1972,2,medium,
+04/03/2022 13:08,04/03/2022 13:11,IP Address,100,165,TRUE,04/03/2022 13:11,R_29cxWzdnwi8ZYI1,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,29,Female,,Yes,Yes,,10,1992,1,,low
+04/03/2022 13:09,04/03/2022 13:12,IP Address,100,166,TRUE,04/03/2022 13:12,R_3oO7pXrTmaebo9n,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,31,Female,,Yes,Yes,,10,1990,1,,low
+04/03/2022 13:11,04/03/2022 13:12,IP Address,100,65,TRUE,04/03/2022 13:12,R_2QtDEnIqzSZ3OHr,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,38,Male,,Yes,Yes,,15,1984,1,,low
+04/03/2022 13:10,04/03/2022 13:12,IP Address,100,104,TRUE,04/03/2022 13:12,R_26akk2ySyEzmny2,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,35,Male,,Yes,Yes,10,,1986,2,low,
+04/03/2022 13:10,04/03/2022 13:12,IP Address,100,82,TRUE,04/03/2022 13:12,R_OpSSeTRuTG62F45,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,26,Male,,Yes,Yes,,20,1995,1,,low
+04/03/2022 13:11,04/03/2022 13:12,IP Address,100,43,TRUE,04/03/2022 13:12,R_31EP3kyRMm33xUG,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,21,Female,,Yes,Yes,,50,2000,1,,low
+04/03/2022 13:09,04/03/2022 13:12,IP Address,100,207,TRUE,04/03/2022 13:12,R_30q79q8gHWQFPfE,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,59,Female,,Yes,Yes,,20,1962,1,,low
+04/03/2022 13:10,04/03/2022 13:12,IP Address,100,100,TRUE,04/03/2022 13:12,R_r1NSnRN292ZbyyR,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,33,Female,,Yes,Yes,10,,1988,2,low,
+04/03/2022 13:09,04/03/2022 13:12,IP Address,100,202,TRUE,04/03/2022 13:12,R_1MQAEl0lcBYsMU6,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,55,Female,,Yes,Yes,75,,1966,2,medium,
+04/03/2022 13:11,04/03/2022 13:12,IP Address,100,107,TRUE,04/03/2022 13:12,R_3PUe1r7EyDVfXWQ,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,27,Female,,Yes,Yes,90,,1995,2,high,
+04/03/2022 13:11,04/03/2022 13:12,IP Address,100,92,TRUE,04/03/2022 13:12,R_vuxRcAQcGXwZPTr,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,28,Female,,Yes,Yes,35,,1993,2,low,
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,121,TRUE,04/03/2022 13:13,R_1GxWVKRUBmzwFhM,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,40,Female,,Yes,Yes,,10,1981,1,,low
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,85,TRUE,04/03/2022 13:13,R_25BdZ0y0Q1BScmi,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,28,Female,,Yes,Yes,,45,1994,1,,medium
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,79,TRUE,04/03/2022 13:13,R_2TLAAD5o6IQwvCK,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,23,Male,,Yes,Yes,,80,1998,1,,hgih
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,84,TRUE,04/03/2022 13:13,R_1nQ5g4PDtAc62Dm,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Male,,Yes,Yes,90,,1987,2,high,
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,109,TRUE,04/03/2022 13:13,R_1pGTLaHMhZXhRMc,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,33,Female,,Yes,Yes,100,,1988,2,high,
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,139,TRUE,04/03/2022 13:13,R_WuL3t20vCFJ02nD,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,66,Female,,Yes,Yes,,10,1956,1,,low
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,133,TRUE,04/03/2022 13:13,R_3RseZFhmHjY7koL,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,35,Female,,Yes,Yes,,75,1986,1,,medium
+04/03/2022 13:10,04/03/2022 13:13,IP Address,100,173,TRUE,04/03/2022 13:13,R_30dDuqCa2pJCloQ,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,27,Female,,Yes,Yes,,50,1994,1,,low
+04/03/2022 13:12,04/03/2022 13:13,IP Address,100,64,TRUE,04/03/2022 13:13,R_2VxQ0TRQeHqtN3z,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,29,Male,,Yes,Yes,25,,29,2,low,
+04/03/2022 13:12,04/03/2022 13:13,IP Address,100,99,TRUE,04/03/2022 13:13,R_2Qie1TujRfl5nJD,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,25,Female,,Yes,Yes,50,,1996,2,medium,
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,126,TRUE,04/03/2022 13:13,R_1WWLvJPYlEOBmk9,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,47,Female,,Yes,Yes,,80,1974,1,,hgih
+04/03/2022 13:12,04/03/2022 13:13,IP Address,100,64,TRUE,04/03/2022 13:13,R_41PE3w0VDbFuyCR,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,24,Male,,Yes,Yes,,25,1997,1,,low
+04/03/2022 13:11,04/03/2022 13:13,IP Address,100,146,TRUE,04/03/2022 13:13,R_pga3tJvJaXMZFW9,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,61,Female,,Yes,Yes,25,,1960,2,low,
+04/03/2022 13:10,04/03/2022 13:14,IP Address,100,207,TRUE,04/03/2022 13:14,R_1et4YOqr2oYppcJ,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,43,Female,,No,Yes,85,,1978,2,medium,
+04/03/2022 13:12,04/03/2022 13:14,IP Address,100,88,TRUE,04/03/2022 13:14,R_20ZPVKQU7EJUROJ,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,28,Male,,Yes,Yes,80,,1993,2,high,
+04/03/2022 13:11,04/03/2022 13:14,IP Address,100,173,TRUE,04/03/2022 13:14,R_3O2PfWKgdQvU3Co,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,33,Female,,Yes,Yes,55,,1988,2,medium,
+04/03/2022 13:13,04/03/2022 13:14,IP Address,100,71,TRUE,04/03/2022 13:14,R_eEUN6m1SUTsAiuB,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,31,Female,,Yes,Yes,,95,1990,1,,hgih
+04/03/2022 13:12,04/03/2022 13:14,IP Address,100,105,TRUE,04/03/2022 13:14,R_2v6eF8MAOHZYoOL,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,20,Female,,Yes,Yes,85,,2001,2,high,
+04/03/2022 13:12,04/03/2022 13:14,IP Address,100,127,TRUE,04/03/2022 13:14,R_Q3U6aLkuXQRxMFX,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,30,Male,,Yes,Yes,60,,1991,2,medium,
+04/03/2022 13:12,04/03/2022 13:14,IP Address,100,137,TRUE,04/03/2022 13:14,R_1IHtLeWoGXXkd0l,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,56,Female,,Yes,Yes,,80,1965,1,,medium
+04/03/2022 13:12,04/03/2022 13:14,IP Address,100,118,TRUE,04/03/2022 13:14,R_1eEvGkC6jWmzOLI,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,40,Male,,No,Yes,,30,1981,1,,low
+04/03/2022 13:12,04/03/2022 13:14,IP Address,100,123,TRUE,04/03/2022 13:14,R_2SrFE9YWBGZffFw,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,50,,1987,2,medium,
+04/03/2022 13:14,04/03/2022 13:15,IP Address,100,52,TRUE,04/03/2022 13:15,R_u3M8pwK846cBdux,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,25,Female,,Yes,Yes,,10,1996,1,,low
+04/03/2022 13:13,04/03/2022 13:15,IP Address,100,123,TRUE,04/03/2022 13:15,R_2zkCueWHmWS4pXK,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,32,Female,,Yes,Yes,20,,1989,2,low,
+04/03/2022 13:14,04/03/2022 13:15,IP Address,100,73,TRUE,04/03/2022 13:15,R_Z3l40OKeLhwWFB7,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,28,Female,,Yes,Yes,70,,1993,2,medium,
+04/03/2022 13:14,04/03/2022 13:15,IP Address,100,65,TRUE,04/03/2022 13:15,R_3qyOMjX1r6rx5yi,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,26,Female,,Yes,Yes,,85,1996,1,,hgih
+04/03/2022 13:11,04/03/2022 13:15,IP Address,100,231,TRUE,04/03/2022 13:15,R_3dCDrLSVdExkVi1,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,50,Female,,Yes,Yes,50,,1971,2,medium,
+04/03/2022 13:11,04/03/2022 13:15,IP Address,100,261,TRUE,04/03/2022 13:15,R_1IZBTi2bwAB1KTn,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,58,Female,,Yes,Yes,,20,1963,1,,low
+04/03/2022 13:13,04/03/2022 13:15,IP Address,100,118,TRUE,04/03/2022 13:15,R_XKYGrDNdMSdqmCB,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,63,Female,,Yes,Yes,50,,1959,2,low,
+04/03/2022 13:13,04/03/2022 13:15,IP Address,100,134,TRUE,04/03/2022 13:15,R_2EmHuEKs7DzF0df,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,37,Male,,Yes,Yes,,50,1984,1,,medium
+04/03/2022 13:14,04/03/2022 13:15,IP Address,100,95,TRUE,04/03/2022 13:15,R_3QW9kgPSnbsRQ4F,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,24,Prefer to self-describe as,Non-binary,Yes,Yes,,10,1997,1,,low
+04/03/2022 13:10,04/03/2022 13:15,IP Address,100,304,TRUE,04/03/2022 13:15,R_1EceKEz4gpWr3Fx,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,56,Female,,Yes,Yes,95,,1965,2,high,
+04/03/2022 13:14,04/03/2022 13:16,IP Address,100,64,TRUE,04/03/2022 13:16,R_2qmC8p4rHMs8dz3,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,36,Female,,Yes,Yes,90,,1985,2,high,
+04/03/2022 13:13,04/03/2022 13:16,IP Address,100,128,TRUE,04/03/2022 13:16,R_1mwkhwxEaBKKzjb,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,21,Prefer to self-describe as,Non binary ,Yes,Yes,,70,2000,1,,medium
+04/03/2022 13:13,04/03/2022 13:16,IP Address,100,171,TRUE,04/03/2022 13:16,R_2XgL7og8JxqLUG4,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,,50,1987,1,,medium
+04/03/2022 13:15,04/03/2022 13:16,IP Address,100,65,TRUE,04/03/2022 13:16,R_1Lv79X88SvAGZwc,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,42,Female,,No,Yes,,2,1979,1,,very low
+04/03/2022 13:15,04/03/2022 13:16,IP Address,100,68,TRUE,04/03/2022 13:16,R_2PgPUR529ix9BTd,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,31,Female,,Yes,Yes,30,,1990,2,low,
+04/03/2022 13:13,04/03/2022 13:16,IP Address,100,193,TRUE,04/03/2022 13:16,R_27WO6bFmUcugVGd,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,48,Female,,Yes,Yes,100,,1974,2,low,
+04/03/2022 13:12,04/03/2022 13:16,IP Address,100,258,TRUE,04/03/2022 13:16,R_3lF7GUcOu5Se1A6,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,61,Female,,Yes,Yes,,90,1960,1,,hgih
+04/03/2022 13:15,04/03/2022 13:16,IP Address,100,64,TRUE,04/03/2022 13:16,R_qxCjGoB1wNjMMQ9,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,25,Female,,Yes,Yes,70,,1996,2,medium,
+04/03/2022 13:14,04/03/2022 13:16,IP Address,100,152,TRUE,04/03/2022 13:16,R_23awi7cXd9pRh9Z,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,42,Female,,Yes,Yes,90,,1979,2,high,
+04/03/2022 13:15,04/03/2022 13:16,IP Address,100,97,TRUE,04/03/2022 13:16,R_1kUjZpfpjXucW5s,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,33,Female,,Yes,Yes,,95,1988,1,,hgih
+04/03/2022 13:16,04/03/2022 13:17,IP Address,100,52,TRUE,04/03/2022 13:17,R_1JK5kyRnluv1E5L,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,24,Male,,Yes,Yes,,20,1997,1,,low
+04/03/2022 13:15,04/03/2022 13:17,IP Address,100,99,TRUE,04/03/2022 13:17,R_1rMwJMu1OIqi7hq,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,27,Male,,Yes,Yes,85,,1994,2,high,
+04/03/2022 13:14,04/03/2022 13:17,IP Address,100,180,TRUE,04/03/2022 13:17,R_W0U7kOSJTct4qeR,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,69,Female,,Yes,Yes,,90,1952,1,,hgih
+04/03/2022 13:15,04/03/2022 13:17,IP Address,100,108,TRUE,04/03/2022 13:17,R_2YG18XpTFLdQu0z,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,41,Female,,Yes,Yes,30,,1980,2,low,
+04/03/2022 13:14,04/03/2022 13:17,IP Address,100,162,TRUE,04/03/2022 13:17,R_25zogyA9mpK8yid,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,54,Male,,Yes,Yes,0.6,,1967,2,medium,
+04/03/2022 13:15,04/03/2022 13:17,IP Address,100,129,TRUE,04/03/2022 13:17,R_3OQjBwwkNYrfDAB,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,,20,1987,1,,low
+04/03/2022 13:15,04/03/2022 13:17,IP Address,100,142,TRUE,04/03/2022 13:17,R_UutQututTXEV5Ad,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,30,Female,,Yes,Yes,,80,1991,1,,very low
+04/03/2022 13:15,04/03/2022 13:17,IP Address,100,151,TRUE,04/03/2022 13:17,R_12kXNvhhmrdi4pE,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,62,Female,,Yes,Yes,5,,1960,2,very low,
+04/03/2022 13:16,04/03/2022 13:17,IP Address,100,95,TRUE,04/03/2022 13:17,R_2usV8fA4rCJf9RU,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,54,Male,,Yes,Yes,,90,1967,1,,hgih
+04/03/2022 13:14,04/03/2022 13:17,IP Address,100,173,TRUE,04/03/2022 13:17,R_2dzul9GK5auSHWK,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,24,Male,,No,Yes,80,,1997,2,high,
+04/03/2022 13:16,04/03/2022 13:17,IP Address,100,95,TRUE,04/03/2022 13:17,R_1jjkBRISoKrkd1q,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,36,Male,,Yes,Yes,,5,1985,1,,very low
+04/03/2022 13:16,04/03/2022 13:17,IP Address,100,96,TRUE,04/03/2022 13:17,R_r8cqNUgY07f0I2R,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,28,Female,,Yes,Yes,25,,1993,2,low,
+04/03/2022 13:14,04/03/2022 13:17,IP Address,100,229,TRUE,04/03/2022 13:17,R_UuoaAo6qlUBazaV,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,83,Female,,Yes,Yes,,45,1939,1,,medium
+04/03/2022 13:15,04/03/2022 13:17,IP Address,100,130,TRUE,04/03/2022 13:17,R_2cpf8QbcKdbtkGr,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,,75,1987,1,,hgih
+04/03/2022 13:16,04/03/2022 13:17,IP Address,100,95,TRUE,04/03/2022 13:17,R_2Yupls8rplXPFAU,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,38,Female,,No,Yes,50,,1983,2,medium,
+04/03/2022 13:16,04/03/2022 13:18,IP Address,100,95,TRUE,04/03/2022 13:18,R_1igQcrnjMGuLufa,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,39,Female,,Yes,Yes,50,,1982,2,medium,
+04/03/2022 13:16,04/03/2022 13:18,IP Address,100,95,TRUE,04/03/2022 13:18,R_2WJ72mdr2uwqrED,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,33,Female,,Yes,Yes,,80,1988,1,,low
+04/03/2022 13:16,04/03/2022 13:18,IP Address,100,98,TRUE,04/03/2022 13:18,R_2VjMSblB1LMm5Nd,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,,70,1987,1,,medium
+04/03/2022 13:14,04/03/2022 13:18,IP Address,100,224,TRUE,04/03/2022 13:18,R_dcGm9Ka9IYZBeaB,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,59,Female,,Yes,Yes,,75,1962,1,,medium
+04/03/2022 13:16,04/03/2022 13:18,IP Address,100,127,TRUE,04/03/2022 13:18,R_3iI6ICQL11Zz01J,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,41,Female,,Yes,Yes,10,,1981,2,very low,
+04/03/2022 13:16,04/03/2022 13:18,IP Address,100,143,TRUE,04/03/2022 13:18,R_21GuA4Fj3np9FCP,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,34,Female,,Yes,Yes,10,,1987,2,low,
+04/03/2022 13:16,04/03/2022 13:18,IP Address,100,124,TRUE,04/03/2022 13:18,R_3jedFmC33Or1ogl,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,30,Female,,Yes,Yes,,10,1992,1,,very low
+04/03/2022 13:15,04/03/2022 13:19,IP Address,100,251,TRUE,04/03/2022 13:19,R_3NCj08MoTbJe1KK,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,44,Female,,No,Yes,10,,1977,2,very low,
+04/03/2022 13:16,04/03/2022 13:19,IP Address,100,184,TRUE,04/03/2022 13:19,R_23Wv1c0Blpk1b2a,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,41,Female,,Yes,Yes,70,,1980,2,high,
+04/03/2022 13:45,04/03/2022 13:49,IP Address,100,215,TRUE,04/03/2022 13:49,R_xeYrEbEhzyLzbCV,anonymous,EN,Yes,Yes,Yes,Yes,Yes,Yes,22,Female,,Yes,Yes,50,,1999,2,low,
