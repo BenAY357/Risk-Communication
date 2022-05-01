@@ -45,7 +45,7 @@ part5 <- clean_data(raw_part5) %>% mutate(part = 5)%>% final_tidy()
 part6 <- clean_data(raw_part6) %>% mutate(part = 6)%>% final_tidy()
 part7 <- clean_data(raw_part7) %>% mutate(part = 7)%>% final_tidy()
 
-# Remove individual participants- these responses do not need to be included in the write up (I think). 
+# Remove individual participants
 
 part1 <- part1 %>% filter(id  != "R_1IKJjGjPB7epA3L") # test response 
 
